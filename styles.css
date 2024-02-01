@@ -1,0 +1,109 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fafafa;
+  margin: 0;
+  padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: #144a38;
+  margin-bottom: 0;
+}
+p {
+  line-height: 160%;
+  color: #434343;
+  font-size: 18px;
+  margin-top: 8px;
+}
+
+.description {
+  font-size: 14px;
+}
+
+.section-description p {
+  font-size: 16px;
+  color: #434343;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: left;
+  margin-bottom: 48px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+  margin-bottom: 34px;
+  border-bottom: 1px solid gainsboro;
+}
+
+.col {
+  padding: 15px;
+  flex: 0 0 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.component {
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.component-title {
+  color: #144a38;
+}
+
+.Thumbnail {
+  aspect-ratio: 16/9;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 2px 16px 0px rgba(33, 43, 54, 0.08),
+    0px 0px 0px 1px rgba(6, 44, 82, 0.1);
+}
+
+.Thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.material-icons {
+  font-size: 16px; /* Set the icon size */
+  vertical-align: middle; /* Aligns the icon with the middle of the text */
+}
+
+/* Responsive Grid */
+@media (min-width: 600px) {
+  /* Adjusts for tablets and above: 2 items per row */
+  .col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 900px) {
+  /* Adjusts for small desktops: 3 items per row */
+  .col {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+}
+
+@media (min-width: 1100px) {
+  /* Adjusts for larger desktops: 4 items per row */
+  .col {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
