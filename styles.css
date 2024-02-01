@@ -79,13 +79,11 @@ p {
 }
 
 .material-icons {
-  font-size: 16px; /* Set the icon size */
-  vertical-align: middle; /* Aligns the icon with the middle of the text */
+  font-size: 16px;
+  vertical-align: middle;
 }
 
-/* Responsive Grid */
 @media (min-width: 600px) {
-  /* Adjusts for tablets and above: 2 items per row */
   .col {
     flex: 0 0 50%;
     max-width: 50%;
@@ -93,7 +91,6 @@ p {
 }
 
 @media (min-width: 900px) {
-  /* Adjusts for small desktops: 3 items per row */
   .col {
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
@@ -101,7 +98,6 @@ p {
 }
 
 @media (min-width: 1100px) {
-  /* Adjusts for larger desktops: 4 items per row */
   .col {
     flex: 0 0 25%;
     max-width: 25%;
