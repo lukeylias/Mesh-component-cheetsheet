@@ -16,1057 +16,1123 @@
     <link rel="icon" type="image/x-icon" href="Assets/favicon.png" />
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <h1>Mesh component cheatsheet</h1>
-        <p>An overview of the various components that are available in mesh.</p>
-        <p class="description">Last updated: 2/2/2024</p>
-      </div>
-      <h2>Actions</h2>
-      <p class="section-description">Perform tasks or take actions</p>
-      <!-- actions -->
-      <div class="row">
-        <!-- button -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/button-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/button/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Button<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Buttons highlight actions a user can take. There is flexibility to
-            choose from multiple styles, sizes and configurations depending on
-            your goal.
+    <div class="flex-container">
+      <nav class="table-of-contents">
+        <h3>Table of Contents</h3>
+        <ul>
+          <li><a href="#actions">Actions</a></li>
+          <li><a href="#layout">Layout and Structure</a></li>
+          <li><a href="#selection">Selection and Input</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+          <li><a href="#typography">Typography</a></li>
+          <li><a href="#navigation">Navigation</a></li>
+          <li><a href="#images">Images and Icons</a></li>
+          <li><a href="#overlays">Overlays</a></li>
+        </ul>
+      </nav>
+      <main class="container">
+        <div class="header">
+          <h1>Mesh component cheatsheet</h1>
+          <p>
+            An overview of the various components that are available in mesh.
           </p>
+          <p class="description">Last updated: 2/2/2024</p>
+        </div>
+        <h2 id="actions">Actions</h2>
+        <p class="section-description">Perform tasks or take actions</p>
+        <!-- actions -->
+        <div class="row">
+          <!-- button -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/button-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/button/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+              aria-label="Button (opens in a new tab)"
+            >
+              <h3>
+                Button<span class="material-icons" aria-hidden="true"
+                  >north_east</span
+                >
+              </h3>
+            </a>
+            <p class="description">
+              Buttons highlight actions a user can take. There is flexibility to
+              choose from multiple styles, sizes and configurations depending on
+              your goal.
+            </p>
+          </div>
+
+          <!-- Utility button -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/utility-button-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/utility-button/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+              aria-label="Utility button (opens in a new tab)"
+            >
+              <h3>
+                Utility button<span class="material-icons" aria-hidden="true"
+                  >north_east</span
+                >
+              </h3>
+            </a>
+
+            <p class="description">
+              UtilityButton acts as inline page navigation and should always be
+              used in groups of two or more, compared to the Button component
+              which is designed to work as a standalone element and performs the
+              role of a call-to-action (CTA).
+            </p>
+          </div>
+
+          <!-- File upload -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/fileupload-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/file-upload-component/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+              aria-label="File upload (opens in a new tab)"
+            >
+              <h3>
+                File upload<span class="material-icons" aria-hidden="true"
+                  >north_east</span
+                >
+              </h3>
+            </a>
+
+            <p class="description">
+              File Upload includes components that allow a user to upload one or
+              more files. This component will typically be used when a member
+              needs to submit receipts, images or documents required to validate
+              a claim or utilise online services.
+            </p>
+          </div>
         </div>
 
-        <!-- Utility button -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/utility-button-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+        <h2 id="layout">Layout and structure</h2>
+        <p class="section-description">
+          Layout is the arrangement of elements on a page
+        </p>
+        <!-- layout and structure -->
+        <div class="row">
+          <!-- Accordion -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/accordion-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/accordion/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+              aria-label="Accordion (opens in a new tab)"
+            >
+              <h3>
+                Accordion<span class="material-icons" aria-hidden="true"
+                  >north_east</span
+                >
+              </h3>
+            </a>
+            <p class="description">
+              Accordions are useful for simplifying overwhelming pages or
+              progressively disclosing steps of a process. Be conscious that
+              accordions require user interaction to see information and think
+              about whether the cost of that is worthwhile.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/utility-button/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>
-              Utility button<span class="material-icons">north_east</span>
-            </h3>
-          </a>
-          <p class="description">
-            UtilityButton acts as inline page navigation and should always be
-            used in groups of two or more, compared to the Button component
-            which is designed to work as a standalone element and performs the
-            role of a call-to-action (CTA).
-          </p>
+
+          <!-- card -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/card-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/card/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+              aria-label="Card (opens in a new tab)"
+            >
+              <h3>
+                Card<span class="material-icons" aria-hidden="true"
+                  >north_east</span
+                >
+              </h3>
+            </a>
+            <p class="description">
+              A Card component is ideal for encapsulating a discrete piece of
+              content which has a single action. Card provides several elements
+              that allow for multiple variations to suit a variety of contexts.
+            </p>
+          </div>
+
+          <!-- Divider -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/divider-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/divider/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+              aria-label="Divider (opens in a new tab)"
+            >
+              <h3>
+                Divider<span class="material-icons" aria-hidden="true"
+                  >north_east</span
+                >
+              </h3>
+            </a>
+            <p class="description">
+              Our Divider component is a styled horizontal rule. It is a 20%
+              opacity black single line to maintain its contrast on a variety of
+              (light) background colours.
+            </p>
+          </div>
+
+          <!-- Expander -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/expander-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/expander/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+              aria-label="Expander (opens in a new tab)"
+            >
+              <h3>
+                Expander<span class="material-icons" aria-hidden="true"
+                  >north_east</span
+                >
+              </h3>
+            </a>
+            <p class="description">
+              The Expander is used for hiding and showing information.
+            </p>
+          </div>
+
+          <!-- Expander group -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/expander-group-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/expander-group/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>
+                Expander group<span class="material-icons">north_east</span>
+              </h3>
+            </a>
+            <p class="description">
+              The Expander Group is used for grouping Expander components.
+            </p>
+          </div>
+
+          <!-- Grow layout -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/grow-layout-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/grow-layout/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Grow layout<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              Grow Layout automatically resizes a div element vertically to push
+              the footer to the bottom of a screen.
+            </p>
+          </div>
+
+          <!-- Hero panel -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/hero-panel-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/hero-panel/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Hero panel<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              A Hero Panel features at the top of a page and acts to support the
+              primary purpose of the page, which could be; to invite a user to
+              further explore the content, to prompt a user to perform an action
+              (when including a button) or simply to support the content of a
+              page.
+            </p>
+          </div>
+
+          <!-- Table -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/table-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/table/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Table<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              Table is a table component that groups content that is similar or
+              related in a grid-like format across rows and columns. They
+              organise information in way that's easy to scan, so that users can
+              look for patterns and insights.
+            </p>
+          </div>
         </div>
 
-        <!-- File upload -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/fileupload-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+        <h2 id="selection">Selection and inputs</h2>
+        <p class="section-description">
+          Choose or enter information using checkboxes, text fields, and more
+        </p>
+        <!-- Selection and input -->
+        <div class="row">
+          <!-- checkbox -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/checkbox-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/checkbox/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Checkbox<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              Checkboxes are used for a list of options when a user can select
+              more than one option. Checkboxes can also be used to turn an
+              option on and off.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/file-upload-component/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>File upload<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            File Upload includes components that allow a user to upload one or
-            more files. This component will typically be used when a member
-            needs to submit receipts, images or documents required to validate a
-            claim or utilise online services.
-          </p>
-        </div>
-      </div>
 
-      <h2>Layout and structure</h2>
-      <p class="section-description">
-        Layout is the arrangement of elements on a page
-      </p>
-      <!-- layout and structure -->
-      <div class="row">
-        <!-- Accordion -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/accordion-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+          <!-- checkbox group -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/checkbox-group-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/checkbox-group/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>
+                Checkbox group<span class="material-icons">north_east</span>
+              </h3>
+            </a>
+            <p class="description">
+              A checkbox group can be used when there are multiple checkbox
+              options available. If a single option is needed, consider a
+              checkbox. When a user is restricted to choosing one option from
+              many options available, consider using a radio group.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/accordion/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Accordion<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Accordions are useful for simplifying overwhelming pages or
-            progressively disclosing steps of a process. Be conscious that
-            accordions require user interaction to see information and think
-            about whether the cost of that is worthwhile.
-          </p>
-        </div>
 
-        <!-- card -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/card-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+          <!-- Date picker -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/date-picker-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/date-picker/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Date picker<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              A simple, accessible and reusable date picker component. The date
+              picker allows users to enter a date by either choosing from the
+              calendar, or typing directly in the textbox.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/card/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Card<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            A Card component is ideal for encapsulating a discrete piece of
-            content which has a single action. Card provides several elements
-            that allow for multiple variations to suit a variety of contexts.
-          </p>
-        </div>
 
-        <!-- Divider -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/divider-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+          <!-- Date textbox -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/date-textbox-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/date-textbox/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>
+                Date textbox<span class="material-icons">north_east</span>
+              </h3>
+            </a>
+            <p class="description">
+              The date textbox is a textbox with unique features. The most
+              notable being restricted formatting that caters to the dd/mm/yyyy
+              format for a date. It is also different from a standard textbox in
+              that when selected, it displays the native date picker for a
+              device when one is detected.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/divider/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Divider<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Our Divider component is a styled horizontal rule. It is a 20%
-            opacity black single line to maintain its contrast on a variety of
-            (light) background colours.
-          </p>
-        </div>
 
-        <!-- Expander -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/expander-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+          <!-- Form -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/form-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/form/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Form<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              The form component is a simple styled container for our form
+              controls. Forms should be used to collect simple data from our
+              users. Users should be able to complete forms quickly and without
+              confusion.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/expander/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Expander<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            The Expander is used for hiding and showing information.
-          </p>
-        </div>
 
-        <!-- Expander group -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/expander-group-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+          <!-- Form control-->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/form-control-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/form-control/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>
+                Form control<span class="material-icons">north_east</span>
+              </h3>
+            </a>
+            <p class="description">
+              A form control is a combination of a form field, a label, a hint
+              and form validation. All form components must be wrapped in a form
+              control.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/expander-group/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>
-              Expander group<span class="material-icons">north_east</span>
-            </h3>
-          </a>
-          <p class="description">
-            The Expander Group is used for grouping Expander components.
-          </p>
-        </div>
 
-        <!-- Grow layout -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/grow-layout-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+          <!-- Radio-->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/radio-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/radio/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Radio<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              Radio buttons are used for a list of two or more options when a
+              user can only select one option. If there are seven or more
+              options use a dropdown menu instead.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/grow-layout/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Grow layout<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Grow Layout automatically resizes a div element vertically to push
-            the footer to the bottom of a screen.
-          </p>
-        </div>
 
-        <!-- Hero panel -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/hero-panel-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+          <!-- Radio group -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/radio-group-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/radio-group/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Radio group<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              Radio group is a container for radio inputs and is used where two
+              or more radio inputs are required. A radio group can accomodate
+              two styles of radio inputs — a radio icon or radio button.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/hero-panel/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Hero panel<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            A Hero Panel features at the top of a page and acts to support the
-            primary purpose of the page, which could be; to invite a user to
-            further explore the content, to prompt a user to perform an action
-            (when including a button) or simply to support the content of a
-            page.
-          </p>
-        </div>
 
-        <!-- Table -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/table-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+          <!-- Autocomplete -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/autocomplete-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/autocomplete/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>
+                Autocomplete<span class="material-icons">north_east</span>
+              </h3>
+            </a>
+            <p class="description">
+              Autocomplete allows a user to select one option from a large
+              number of mutually exclusive choices. It is suitable for use when
+              the list of available options is larger than 8, as it displays a
+              filtered shortlist of up to 5 matching options when the user
+              begins to type input.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/table/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Table<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Table is a table component that groups content that is similar or
-            related in a grid-like format across rows and columns. They organise
-            information in way that's easy to scan, so that users can look for
-            patterns and insights.
-          </p>
-        </div>
-      </div>
 
-      <h2>Selection and inputs</h2>
-      <p class="section-description">
-        Choose or enter information using checkboxes, text fields, and more
-      </p>
-      <!-- Selection and input -->
-      <div class="row">
-        <!-- checkbox -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/checkbox-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+          <!-- Select -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/select-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/select/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Select<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              A standard select input component, also known as a drop-down list.
+              A select control should be avoided when possible, especially for a
+              small number of options, as they hide choices from the user.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/checkbox/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Checkbox<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Checkboxes are used for a list of options when a user can select
-            more than one option. Checkboxes can also be used to turn an option
-            on and off.
-          </p>
-        </div>
 
-        <!-- checkbox group -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/checkbox-group-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+          <!-- Text area -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/text-area-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/textarea/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Text area<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              Use a textarea when the expected user input is multiple line of
+              text. They are commonly used in forms.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/checkbox-group/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>
-              Checkbox group<span class="material-icons">north_east</span>
-            </h3>
-          </a>
-          <p class="description">
-            A checkbox group can be used when there are multiple checkbox
-            options available. If a single option is needed, consider a
-            checkbox. When a user is restricted to choosing one option from many
-            options available, consider using a radio group.
-          </p>
-        </div>
 
-        <!-- Date picker -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/date-picker-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+          <!-- Text box -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/textbox-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/textbox/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Text box<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              Use a textbox when the expected user input is a single line of
+              text. They are commonly used in forms.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/date-picker/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Date picker<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            A simple, accessible and reusable date picker component. The date
-            picker allows users to enter a date by either choosing from the
-            calendar, or typing directly in the textbox.
-          </p>
-        </div>
-
-        <!-- Date textbox -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/date-textbox-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/date-textbox/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Date textbox<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            The date textbox is a textbox with unique features. The most notable
-            being restricted formatting that caters to the dd/mm/yyyy format for
-            a date. It is also different from a standard textbox in that when
-            selected, it displays the native date picker for a device when one
-            is detected.
-          </p>
         </div>
 
-        <!-- Form -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/form-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+        <h2 id="feedback">Feedback</h2>
+        <p class="section-description">
+          Keep users informed about the progress of a process, offer feedback on
+          actions and tasks, and provide updates on the status
+        </p>
+        <!-- Feedback -->
+        <div class="row">
+          <!-- Alert -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/alert-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/alert/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Alert<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              Alerts are used to communicate important information to the user.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/form/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Form<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            The form component is a simple styled container for our form
-            controls. Forms should be used to collect simple data from our
-            users. Users should be able to complete forms quickly and without
-            confusion.
-          </p>
+
+          <!-- Error template -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/error-template-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/error-template/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>
+                Error template<span class="material-icons">north_east</span>
+              </h3>
+            </a>
+            <p class="description">
+              Error Template defines the layout and styling of an error page,
+              but not the content.
+            </p>
+          </div>
+
+          <!-- Info box -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/info-box-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/info-box/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Info box<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              InfoBox is used to contain promotional or supporting information
+              and is displayed either within a form or part of a user flow such
+              as a sales or join funnel.
+            </p>
+          </div>
+
+          <!-- Loader -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/loader-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/loader/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Loader<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              The Loader component provides an animated SVG-based loader that
+              similarly to icons, is light, simple, and clearly recognisable,
+              while being distinctive and complementary to the nib brand.
+            </p>
+          </div>
+
+          <!-- Progress stepper -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/progress-steppper-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/progress-stepper/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>
+                Progress stepper<span class="material-icons">north_east</span>
+              </h3>
+            </a>
+            <p class="description">
+              A ProgressStepper is designed to orient a user within an
+              interactive experience by breaking down extended tasks into
+              'steps'.
+            </p>
+          </div>
+
+          <!-- Tooltip -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/tooltip-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/tooltip/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Tooltip<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              A Tooltip is used to display text as either a label, description
+              or supplementary information. Content contained within a Tooltip
+              should be contextual, useful and nonessential.
+            </p>
+          </div>
         </div>
 
-        <!-- Form control-->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/form-control-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+        <h2 id="typography">Typography</h2>
+        <p class="section-description">
+          Establish hierarchy and communicate importance through text
+          presentation
+        </p>
+        <!-- Typography -->
+        <div class="row">
+          <!-- Fonts -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/Fonts-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/fonts/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Fonts<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              Font face declarations for nib and partners.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/form-control/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Form control<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            A form control is a combination of a form field, a label, a hint and
-            form validation. All form components must be wrapped in a form
-            control.
-          </p>
+
+          <!-- Heading -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/Heading-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/heading/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Heading<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              Our standard heading component. Headings have no margins by
+              default and can be sized independently of the underlying html
+              element.
+            </p>
+          </div>
         </div>
 
-        <!-- Radio-->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/radio-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+        <h2 id="navigation">Navigation</h2>
+        <p class="section-description">
+          Access resources and move between sections, pages, or views in a
+          structured and intuitive way
+        </p>
+        <!-- Navigation -->
+        <div class="row">
+          <!-- Footer -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/footer-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/footer/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Footer<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              The Footer component is our primary page footer. This should be
+              used on all pages except for focused content and sales funnel
+              pages which should use the Small Footer component. When combining
+              this component with the Header component, use the Header Footer
+              Layout component instead.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/radio/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Radio<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Radio buttons are used for a list of two or more options when a user
-            can only select one option. If there are seven or more options use a
-            dropdown menu instead.
-          </p>
+
+          <!-- Header -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/header-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/header/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Header<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              The Header component is our primary page header. It should be used
+              on all pages except for focused content and sales funnel pages
+              which should use the Small Header component. When combining this
+              component with the Footer component, use the Header Footer Layout
+              component instead.
+            </p>
+          </div>
+
+          <!-- Link -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/link-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/link/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Link<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              The Link component is used to highlight that further content is
+              available. It can also be used to emphasise other important
+              details like emails and phone numbers.
+            </p>
+          </div>
+
+          <!-- Skip link -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/skip-link-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/skip-link/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Skip link<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              The Skip Link component helps keyboard-only and screen-reader
+              users skip to the main content on a page, this includes skipping
+              over the header and navigation. The Skip Link is visually hidden
+              until a keyboard press focuses and activates it.
+            </p>
+          </div>
+
+          <!-- Tabs -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/tabs-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
+            </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/tabs/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Tabs<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              Tabs make it easy to view and navigate stacked panels of related
+              content. They are especially useful when you need to show a lot of
+              content in a small space.
+            </p>
+          </div>
         </div>
 
-        <!-- Radio group -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/radio-group-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+        <h2 id="images">Images and icons</h2>
+        <p class="section-description">
+          Represent visual content, such as avatars and thumbnails for images or
+          videos
+        </p>
+        <!-- Images and icons -->
+        <div class="row">
+          <!-- Icons -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/icons-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/icons/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Icons<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              Our icon library presents pixel-perfect, scalable SVG-based icons
+              that are light, simple, and clearly recognisable, while being
+              distinctive and complementary to the nib brand. Our icon library
+              includes system and graphic icon assets.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/radio-group/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Radio group<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Radio group is a container for radio inputs and is used where two or
-            more radio inputs are required. A radio group can accomodate two
-            styles of radio inputs — a radio icon or radio button.
-          </p>
         </div>
 
-        <!-- Autocomplete -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/autocomplete-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+        <h2 id="overlays">Overlays</h2>
+        <p class="section-description">
+          Display additional contextual elements on top of the main interface
+          for extra information or functionality
+        </p>
+        <!-- Overlays -->
+        <div class="row">
+          <!-- Modal -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/modal-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/modal/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+              aria-label="Modal (opens in a new tab)"
+            >
+              <h3>
+                Modal<span class="material-icons" aria-hidden="true"
+                  >north_east</span
+                >
+              </h3>
+            </a>
+            <p class="description">
+              A modal refers to a content box that is displayed in combination
+              with an overlay on a page.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/autocomplete/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Autocomplete<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Autocomplete allows a user to select one option from a large number
-            of mutually exclusive choices. It is suitable for use when the list
-            of available options is larger than 8, as it displays a filtered
-            shortlist of up to 5 matching options when the user begins to type
-            input.
-          </p>
-        </div>
 
-        <!-- Select -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/select-thumbnail.svg"
-                alt="Descriptive Text"
-              />
+          <!-- Overlay -->
+          <div class="col">
+            <div class="component">
+              <div class="Thumbnail">
+                <img
+                  src="Assets/thumbnails/overlay-thumbnail.svg"
+                  alt="Descriptive Text"
+                />
+              </div>
             </div>
+            <a
+              href="https://www.meshdesignsystem.com/components/overlay/"
+              target="_blank"
+              class="component-title"
+              rel="noopener"
+            >
+              <h3>Overlay<span class="material-icons">north_east</span></h3>
+            </a>
+            <p class="description">
+              Overlay provides a full-screen, semi-transparent layer to block
+              out the underlying page content, allowing you to direct the user's
+              attention to a specific section of a UI.
+            </p>
           </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/select/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Select<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            A standard select input component, also known as a drop-down list. A
-            select control should be avoided when possible, especially for a
-            small number of options, as they hide choices from the user.
-          </p>
         </div>
-
-        <!-- Text area -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/text-area-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/textarea/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Text area<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Use a textarea when the expected user input is multiple line of
-            text. They are commonly used in forms.
-          </p>
-        </div>
-
-        <!-- Text box -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/textbox-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/textbox/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Text box<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Use a textbox when the expected user input is a single line of text.
-            They are commonly used in forms.
-          </p>
-        </div>
-      </div>
-
-      <h2>Feedback</h2>
-      <p class="section-description">
-        Keep users informed about the progress of a process, offer feedback on
-        actions and tasks, and provide updates on the status
-      </p>
-      <!-- Feedback -->
-      <div class="row">
-        <!-- Alert -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/alert-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/alert/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Alert<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Alerts are used to communicate important information to the user.
-          </p>
-        </div>
-
-        <!-- Error template -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/error-template-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/error-template/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>
-              Error template<span class="material-icons">north_east</span>
-            </h3>
-          </a>
-          <p class="description">
-            Error Template defines the layout and styling of an error page, but
-            not the content.
-          </p>
-        </div>
-
-        <!-- Info box -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/info-box-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/info-box/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Info box<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            InfoBox is used to contain promotional or supporting information and
-            is displayed either within a form or part of a user flow such as a
-            sales or join funnel.
-          </p>
-        </div>
-
-        <!-- Loader -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/loader-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/loader/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Loader<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            The Loader component provides an animated SVG-based loader that
-            similarly to icons, is light, simple, and clearly recognisable,
-            while being distinctive and complementary to the nib brand.
-          </p>
-        </div>
-
-        <!-- Progress stepper -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/progress-steppper-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/progress-stepper/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>
-              Progress stepper<span class="material-icons">north_east</span>
-            </h3>
-          </a>
-          <p class="description">
-            A ProgressStepper is designed to orient a user within an interactive
-            experience by breaking down extended tasks into 'steps'.
-          </p>
-        </div>
-
-        <!-- Tooltip -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/tooltip-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/tooltip/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Tooltip<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            A Tooltip is used to display text as either a label, description or
-            supplementary information. Content contained within a Tooltip should
-            be contextual, useful and nonessential.
-          </p>
-        </div>
-      </div>
-
-      <h2>Typography</h2>
-      <p class="section-description">
-        Establish hierarchy and communicate importance through text presentation
-      </p>
-      <!-- Typography -->
-      <div class="row">
-        <!-- Fonts -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/Fonts-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/fonts/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Fonts<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Font face declarations for nib and partners.
-          </p>
-        </div>
-
-        <!-- Heading -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/Heading-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/heading/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Heading<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Our standard heading component. Headings have no margins by default
-            and can be sized independently of the underlying html element.
-          </p>
-        </div>
-      </div>
-
-      <h2>Navigation</h2>
-      <p class="section-description">
-        Access resources and move between sections, pages, or views in a
-        structured and intuitive way
-      </p>
-      <!-- Navigation -->
-      <div class="row">
-        <!-- Footer -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/footer-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/footer/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Footer<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            The Footer component is our primary page footer. This should be used
-            on all pages except for focused content and sales funnel pages which
-            should use the Small Footer component. When combining this component
-            with the Header component, use the Header Footer Layout component
-            instead.
-          </p>
-        </div>
-
-        <!-- Header -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/header-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/header/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Header<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            The Header component is our primary page header. It should be used
-            on all pages except for focused content and sales funnel pages which
-            should use the Small Header component. When combining this component
-            with the Footer component, use the Header Footer Layout component
-            instead.
-          </p>
-        </div>
-
-        <!-- Link -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/link-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/link/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Link<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            The Link component is used to highlight that further content is
-            available. It can also be used to emphasise other important details
-            like emails and phone numbers.
-          </p>
-        </div>
-
-        <!-- Skip link -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/skip-link-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/skip-link/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Skip link<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            The Skip Link component helps keyboard-only and screen-reader users
-            skip to the main content on a page, this includes skipping over the
-            header and navigation. The Skip Link is visually hidden until a
-            keyboard press focuses and activates it.
-          </p>
-        </div>
-
-        <!-- Tabs -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/tabs-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/tabs/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Tabs<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Tabs make it easy to view and navigate stacked panels of related
-            content. They are especially useful when you need to show a lot of
-            content in a small space.
-          </p>
-        </div>
-      </div>
-
-      <h2>Images and icons</h2>
-      <p class="section-description">
-        Represent visual content, such as avatars and thumbnails for images or
-        videos
-      </p>
-      <!-- Images and icons -->
-      <div class="row">
-        <!-- Icons -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/icons-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/icons/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Icons<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Our icon library presents pixel-perfect, scalable SVG-based icons
-            that are light, simple, and clearly recognisable, while being
-            distinctive and complementary to the nib brand. Our icon library
-            includes system and graphic icon assets.
-          </p>
-        </div>
-      </div>
-
-      <h2>Overlays</h2>
-      <p class="section-description">
-        Display additional contextual elements on top of the main interface for
-        extra information or functionality
-      </p>
-      <!-- Overlays -->
-      <div class="row">
-        <!-- Modal -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/modal-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/modal/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Modal<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            A modal refers to a content box that is displayed in combination
-            with an overlay on a page.
-          </p>
-        </div>
-
-        <!-- Overlay -->
-        <div class="col">
-          <div class="component">
-            <div class="Thumbnail">
-              <img
-                src="Assets/thumbnails/overlay-thumbnail.svg"
-                alt="Descriptive Text"
-              />
-            </div>
-          </div>
-          <a
-            href="https://www.meshdesignsystem.com/components/overlay/"
-            target="_blank"
-            class="component-title"
-            rel="noopener"
-          >
-            <h3>Overlay<span class="material-icons">north_east</span></h3>
-          </a>
-          <p class="description">
-            Overlay provides a full-screen, semi-transparent layer to block out
-            the underlying page content, allowing you to direct the user's
-            attention to a specific section of a UI.
-          </p>
-        </div>
-      </div>
+      </main>
     </div>
   </body>
 </html>

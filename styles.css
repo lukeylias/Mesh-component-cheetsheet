@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background: #fafafa;
@@ -28,9 +32,16 @@ p {
   color: #434343;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  margin-left: 80px;
+  padding-top: 12px;
 }
 
 .header {
@@ -83,6 +94,38 @@ p {
   vertical-align: middle;
 }
 
+.table-of-contents {
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  height: fit-content;
+  max-height: 100vh;
+  overflow-y: auto;
+  margin-left: auto;
+}
+
+.table-of-contents h3 {
+  margin-bottom: 10px;
+}
+
+.table-of-contents ul {
+  list-style: none;
+  padding: 0;
+}
+
+.table-of-contents li a {
+  display: block;
+  margin-bottom: 12px;
+  color: #144a38;
+  text-decoration: none;
+}
+
+/* Add styles for active state and hover effects as needed */
+.table-of-contents li a:hover,
+.table-of-contents li a.active {
+  text-decoration: underline;
+}
+
 @media (min-width: 600px) {
   .col {
     flex: 0 0 50%;
@@ -101,5 +144,14 @@ p {
   .col {
     flex: 0 0 25%;
     max-width: 25%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .table-of-contents {
+    display: none;
+  }
+  .container {
+    margin-left: 0;
   }
 }
