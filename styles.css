@@ -9,6 +9,10 @@ body {
   padding: 20px;
 }
 
+:focus {
+  outline-offset: 2px;
+}
+
 h1,
 h2,
 h3 {
@@ -71,6 +75,30 @@ p {
 
 .component-title {
   color: #144a38;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: none;
+  background-color: #144a38;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.button .material-icons {
+  margin-left: 10px;
+  font-size: 20px; /* Adjust the size of the icon as needed */
+}
+
+.button:hover {
+  background-color: #1e5e49;
 }
 
 .Thumbnail {
