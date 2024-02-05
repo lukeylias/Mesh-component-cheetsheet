@@ -101,6 +101,29 @@ p {
   background-color: #1e5e49;
 }
 
+.btnAlt {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: none;
+  color: #144a38;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.btnAlt .material-icons {
+  margin-left: 10px;
+  font-size: 20px; /* Adjust the size of the icon as needed */
+}
+
+.btnAlt:hover {
+  background-color: #c9d8e6;
+}
+
 .Thumbnail {
   aspect-ratio: 16/9;
   border-radius: 8px;
@@ -148,16 +171,61 @@ p {
   text-decoration: none;
 }
 
-/* Add styles for active state and hover effects as needed */
-.table-of-contents li a:hover,
-.table-of-contents li a.active {
+.table-of-contents li a:hover {
   text-decoration: underline;
+}
+.table-of-contents li a.active {
+  background-color: #f1f8f6;
+}
+
+.callout-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #deeefd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 740px;
+}
+
+.callout-content {
+  flex: 1;
+}
+
+.callout-content {
+  color: #333;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.callout-content p {
+  font-size: 16px;
+  color: #434343;
+}
+
+.callout-buttons {
+  margin-top: 20px;
+}
+
+.callout-image {
+  max-width: 120px; /* Restrict the size of the image */
+  margin-left: 20px;
+}
+
+.callout-image img {
+  max-width: 100%;
+  height: auto;
+  display: none;
 }
 
 @media (min-width: 600px) {
   .col {
     flex: 0 0 50%;
     max-width: 50%;
+  }
+
+  .callout-image img {
+    display: block;
   }
 }
 
